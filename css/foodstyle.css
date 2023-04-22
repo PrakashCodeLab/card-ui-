@@ -1,0 +1,173 @@
+/* card food card style sheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Times new roman;
+   }
+
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.card__container{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: none;
+}
+
+.card__body{
+    width: 300px ;
+    height: 450px;
+    background-color: #f9ca24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+
+.card__sectiom{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+   padding: 5px;
+   
+}
+
+.card__section__one{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    min-height: 100px;
+}
+
+
+.img__logo{
+    width: 100px;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: whitesmoke;
+}
+
+.unorder__list__right{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 5px;
+}
+
+.right__link{
+    font-size: 0.5rem;
+    border: none;
+    background: black;
+    color: white;
+    height: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.right__list{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.card__section__two{
+    
+    width: 300px;
+    
+}
+
+.card__sectiom__body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    background-color: #dff9fb;
+}
+
+.img__section__card{
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img__content{
+    font-size: 0.7rem;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+.card__section__three{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap:50px;
+}
+
+.btn{
+    
+    text-decoration: none;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: black;
+    color: whitesmoke;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__primary{
+    background-color:#4834d4;
+}
+
+.btn__secondary{
+    background-color:#f0932b;
+}
